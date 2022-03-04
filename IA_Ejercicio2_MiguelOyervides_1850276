@@ -1,0 +1,5 @@
+#Miguel Angel Oyervides Torres 1850276 IMTC JN1
+#Ejercicio 2
+lista = [1,8,5,0,2,7,6,]
+lista2 = lista[::-1]
+print(lista2)
