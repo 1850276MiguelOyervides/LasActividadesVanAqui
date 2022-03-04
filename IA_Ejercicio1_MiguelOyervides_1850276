@@ -1,0 +1,8 @@
+#Miguel Angel Oyervides Torres 1850276 IMTC JN1
+#Ejercicio 1
+print ("Hola, mucho gusto dime tu nombre")
+name = input()
+if name == "Pedro" or "Juan" or "Ana":
+    print("Lo sentimos")
+else:
+    print('Mucho gusto, {}'.format(name))
