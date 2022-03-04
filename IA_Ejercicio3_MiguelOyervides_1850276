@@ -1,0 +1,12 @@
+#Miguel Angel Oyervides Torres 1850276 IMTC JN1
+#Ejercicio 3
+def Marco(words):
+  
+    size = max(len(word) for word in words)
+    print("*"*(size+4))
+
+    for i in words:
+      print("*"+" "+i+" "*((size+4)-len(i)-3)+"*")
+    print("*"*(size+4))   
+
+Marco(["hola","a","todos","esto","es","un","marco"])
